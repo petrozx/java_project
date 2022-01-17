@@ -24,12 +24,9 @@ public class Main {
             System.out.println("ERROR BD STEP 1 " + e);
         } finally {
             try {
-                if (con != null) {
-                    con.close();
-                }
-                if (stmt != null) {
-                    stmt.close();
-                }
+                if (con != null) con.close();
+                if (stmt != null) stmt.close();
+
             } catch (Exception e) {
                 System.out.println("ERROR BD " + e);
             }
