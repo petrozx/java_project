@@ -10,7 +10,6 @@ public class Main {
     public static final String urlBD = "jdbc:mysql://mysql.petroz.myjino.ru/petroz";
     public static Connection con;
     public static Statement stmt;
-    public static ResultSet rs;
 
     public static void main(String[] args) {
         try {
